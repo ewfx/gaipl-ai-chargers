@@ -49,7 +49,7 @@ Describe the major technical or non-technical challenges your team encountered.
    npm start  # or python app.py
    ```
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 🔹 Frontend: React, Material-UI
 🔹 Backend: FastAPI, Python
 🔹 Database: SQLite, FAISS (Vector DB)
