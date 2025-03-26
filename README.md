@@ -27,8 +27,9 @@ A brief overview of your project and its purpose. Mention which problem statemen
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-1. It helps user to search the knowledge bases, Incidents and automations available (if any)
-2. User can chat with chatbot about the issue he/she is facing and get the AI assistant in troubleshooting the issue.
+1. It helps user to search the knowledge bases, Incidents and automations available (if any).
+   - When the user searches with the ERROR message or any KBA number or Incident number, the application will search for the KBAs, Incidents and automations => Upon feeding this to LLM, it will propose the user with RCA, Troubleshooting Steps, relevant incidents / KBAs.
+3. User can chat with chatbot about the issue he/she is facing and get the AI assistant in troubleshooting the issue.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
