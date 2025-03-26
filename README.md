@@ -26,7 +26,8 @@ Our project targets the below:-
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+
+
 
 ## 💡 Inspiration
 "Transforming platform support from reactive troubleshooting to agentic resolution—where AI-driven insights, contextual automation, and enterprise knowledge converge to predict, diagnose, and resolve incidents at the speed of thought."
