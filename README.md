@@ -38,15 +38,24 @@ Describe the major technical or non-technical challenges your team encountered.
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone [https://github.com/your-repo.git](https://github.com/ewfx/gaipl-ai-chargers.git)
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   cd code
+   npm install
+   (for Python)
+   cd code/server
+   pip install -r requirements.txt 
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   cd code
+   npm start
+
+   (For python backend)
+   cd code/server
+   python app.py
    ```
 
 ## 🏗️ Tech Stack
