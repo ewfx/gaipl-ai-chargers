@@ -23,10 +23,12 @@ Our project targets the below:-
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](https://github.com/ewfx/gaipl-ai-chargers/blob/main/artifacts/demo/Screen%20Recording%202025-03-26%20192416.mp4) (if applicable)
+
 🖼️ Screenshots:
 
-
+https://github.com/ewfx/gaipl-ai-chargers/blob/main/artifacts/demo/d1201fd7-bdfc-4391-9f25-b30411ff4a5d.jfif 
+https://github.com/ewfx/gaipl-ai-chargers/blob/main/artifacts/demo/40b0abb4-c96f-4d30-980f-0ee55e76e34b.jfif
 
 
 ## 💡 Inspiration
