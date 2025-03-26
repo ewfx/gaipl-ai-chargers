@@ -33,7 +33,17 @@ Explain the key features and functionalities of your project.
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+1. Choosing the UI
+   - Initially started the UI with Streamlit and faced challenges in integration combining both serach and chatbot options.
+   - After trying multiple hours, fallbacked to React UI where we are able to integrate and approach the requirement easily.
+3. Choosing the approach like syntacic based approach or semantic based approach.
+   - Our Development started with syntacic based approach and we found that its not scable for larger data as it adds more time to load.
+   - Upon researching, we found that we can use Custom RAG methodology to tackle this problem and able to implement the same.
+5. Backend server issues when connecting with React UI
+   - Faced CORS issues, which we fixed.
+   - Context type issues when parsing from frontend to backend.
+7. Choosing the Vector Database
+   - Upon researching with semantic and RAG based approach, we researched and studied available vector DBs and found FIASS + SQLite is efficient and durable.
 
 ## 🏃 How to Run
 1. Clone the repository  
