@@ -1,37 +1,16 @@
-# 🚀 Penta Squad - Gen AI for the platform support
- 
+# 🚀 AI Chargers
+
 ## 📌 Table of Contents
 - [Introduction](#introduction)
-- Is to facilitate platform support teams across the globe with AI based resolutions for daily activities like accessing KB articles, running ansible jobs and trouble shooting - To facilitate platform support infrastructure TM,s with an application as interface which integrates AI
-- Concept
-
-  provide user interface with gen ai intergrated platform
-  
-
 - [Demo](#demo)
-- this will be a link to add
 - [Inspiration](#inspiration)
-- To build machine based intelligence for faster resolution for platform support.
 - [What It Does](#what-it-does)
-- An application with UI interface that intakes client requests, to search and provide optimum resolutions and at times also performs some job/implementations upon request.
-- 
 - [How We Built It](#how-we-built-it)
-- pavan to add
-- 
 - [Challenges We Faced](#challenges-we-faced)
-- 
 - [How to Run](#how-to-run)
-
-- open the web applicayion
-- search your query
-- the search optimization tool will integrate with gen ai to provide the most optimal results and if required upon furthur direction also excute small scriptsEg: generate dumpand festart server when there is high cpu
 - [Tech Stack](#tech-stack)
--  open ai model
-
--  pavan
 - [Team](#team)
-- 
-all names
+
 ---
 
 ## 🎯 Introduction
