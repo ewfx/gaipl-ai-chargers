@@ -14,7 +14,12 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our project targets the below:-
+1. Provide agentic capabilities for incident resolution: should provide the platform support operator access to agentic tools to run automations, summarize RCAs, launch health check, pull related incidents etc. etc. from the IPE (Integrated Platform Environment) console
+2. Al chatbot to contextually chat with a GPT backend on the incident/issue that they are resolving at the moment
+3. Contextual recommendations with telemetry, related incidents etc. should provide proactive recommendation engine mapping to telemetry, related incidents etc.
+4. Ability to leverage enterprise information for troubleshooting: should have additional data source integration using MCP (Model context protocol) based integrations based on the need of the platform support person
+5. Context based data extraction: Extract fields like connectivity information, upstream and downstream dependency based on simple query for the Cl in question
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,7 +29,7 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+"Transforming platform support from reactive troubleshooting to agentic resolution—where AI-driven insights, contextual automation, and enterprise knowledge converge to predict, diagnose, and resolve incidents at the speed of thought."
 
 ## ⚙️ What It Does
 1. It helps user to search the knowledge bases, Incidents and automations available (if any).
