@@ -50,14 +50,17 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React, Material-UI
-- 🔹 Backend: FastAPI, Python
-- 🔹 Database: SQLite, FAISS (Vector DB)
-- 🔹 AI/ML: OpenAI API (GPT-4), Sentence Transformers
-- 🔹 Other: RESTful API / JSON Data
+- 🔹 **Frontend**: React, Material-UI
+- 🔹 **Backend**: FastAPI, Python
+- 🔹 **Database**: SQLite, FAISS (Vector DB)
+- 🔹 **AI/ML**: OpenAI API (GPT-4), Sentence Transformers
+- 🔹 **Other**: RESTful API / JSON Data
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Nrusimha Pavan Kumar Ganugapati** - [GitHub](#) | [LinkedIn](#)
+- **Sundar Gade** - [GitHub](#) | [LinkedIn](#)
+- **Abhishek Sinha** - [GitHub](#) | [LinkedIn](#)
+- **Gangadher Kanakthala** - [GitHub](#) | [LinkedIn](#)
+- **Pratheepa Infanta** - [GitHub](#) | [LinkedIn](#)
 
   
