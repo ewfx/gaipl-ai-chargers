@@ -27,7 +27,8 @@ A brief overview of your project and its purpose. Mention which problem statemen
 What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. It helps user to search the knowledge bases, Incidents and automations available (if any)
+2. User can chat with chatbot about the issue he/she is facing and get the AI assistant in troubleshooting the issue.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
