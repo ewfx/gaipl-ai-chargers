@@ -1,0 +1,113 @@
+[
+    {
+        "KA Number":"KA001",
+        "Title":"Apigee OPDK",
+        "Summary":"The Apigee OPDK Management Server becomes unresponsive, affecting API deployment and configuration updates.",
+        "ResolutionSteps":[
+            "Check server health using `systemctl status apigee-management-server`.",
+            "Restart the service using `service apigee-management-server restart`.",
+            "Analyze logs at `\/opt\/apigee\/var\/log\/edge-management-server.log` for errors.",
+            "Ensure sufficient memory and disk space are available."
+        ],
+        "AnsiblePlaybook" : "initialfix.yml"
+    },
+    {
+        "KA Number":"KA002",
+        "Title":"High CPU Usage on Apigee Message Processor",
+        "Summary":"Message Processor nodes experience high CPU usage, leading to degraded API performance.",
+        "ResolutionSteps":[
+            "Identify high resource-consuming processes using `top` or `htop`.",
+            "Tune JVM settings in `message-processor.properties` (e.g., `JAVA_OPTS='-Xms2g -Xmx4g'`).",
+            "Restart the Message Processor: `service apigee-message-processor restart`.",
+            "Scale out additional Message Processor nodes if needed."
+        ]
+    },
+    {
+        "KA Number":"KA003",
+        "Title":"API Proxy Failing Due to Backend Timeout",
+        "Summary":"API proxies fail due to backend services taking longer to respond, causing timeout errors.",
+        "ResolutionSteps":[
+            "Increase `TargetEndpoint\/HTTPTargetConnection\/Timeout` settings in the API proxy.",
+            "Test backend connectivity with `curl -v http:\/\/backend-url`.",
+            "Use Apigee Trace tool to diagnose where delays occur.",
+            "Implement retry mechanisms in the API proxy."
+        ]
+    },
+    {
+        "KA Number":"KA004",
+        "Title":"Apigee Edge Router Returning 502 Bad Gateway",
+        "Summary":"The Apigee Edge Router returns a `502 Bad Gateway` error when forwarding API requests.",
+        "ResolutionSteps":[
+            "Check if the Router process is running: `service apigee-router status`.",
+            "Restart the Router: `service apigee-router restart`.",
+            "Verify that the Message Processor is reachable from the Router.",
+            "Look for error logs in `\/opt\/apigee\/var\/log\/edge-router.log`."
+        ]
+    },
+    {
+        "KA Number":"KA005",
+        "Title":"Cassandra Node Down in Apigee OPDK Cluster",
+        "Summary":"One or more Cassandra nodes become unavailable, impacting analytics and key-value storage.",
+        "ResolutionSteps":[
+            "Check Cassandra status: `nodetool status`.",
+            "Restart Cassandra on the affected node: `service apigee-cassandra restart`.",
+            "Rebalance the cluster using `nodetool repair`.",
+            "Validate data consistency across nodes."
+        ]
+    },
+    {
+        "KA Number":"KA006",
+        "Title":"TLS Handshake Failure on Apigee Management API",
+        "Summary":"TLS handshake fails when accessing the Apigee Management API.",
+        "ResolutionSteps":[
+            "Check if SSL certificates are expired using `openssl s_client -connect <hostname>:443`.",
+            "Update the TLS certificate and restart the affected service.",
+            "Ensure TLS versions match between client and server (`TLS 1.2` recommended).",
+            "Check API Gateway configurations for cipher suite mismatches."
+        ]
+    },
+    {
+        "KA Number":"KA007",
+        "Title":"Slow API Response Times in Apigee OPDK",
+        "Summary":"APIs respond slowly due to network latency, backend performance issues, or resource constraints.",
+        "ResolutionSteps":[
+            "Use Apigee Analytics to identify slow requests.",
+            "Enable response caching to reduce backend dependency.",
+            "Optimize policy execution order in API proxies.",
+            "Increase Message Processor capacity or optimize JVM settings."
+        ]
+    },
+    {
+        "KA Number":"KA008",
+        "Title":"Apigee Postgres Database Replication Lag Detected",
+        "Summary":"PostgreSQL replication lag increases, affecting Apigee\u2019s key-value storage.",
+        "ResolutionSteps":[
+            "Check replication status: `SELECT * FROM pg_stat_replication;`.",
+            "Identify slow queries causing lag using `pg_stat_activity`.",
+            "Optimize indexes and vacuum the database.",
+            "Increase WAL segment size for better performance."
+        ]
+    },
+    {
+        "KA Number":"KA009",
+        "Title":"Analytics Data Not Updating in Apigee UI",
+        "Summary":"The Apigee Analytics dashboard does not reflect recent API traffic data.",
+        "ResolutionSteps":[
+            "Restart the `apigee-postgresql` and `apigee-qpid` services.",
+            "Ensure `apigee-cassandra` nodes are healthy.",
+            "Check analytics data pipeline logs for errors.",
+            "Re-index analytics data using `apigee-analytics-setup.sh`."
+        ]
+    },
+    {
+        "KA Number":"KA010",
+        "Title":"Apigee OPDK Installation Failure on New Node",
+        "Summary":"Apigee OPDK installation fails due to missing dependencies or incorrect configurations.",
+        "ResolutionSteps":[
+            "Ensure all required OS packages are installed.",
+            "Run `.\/apigee-setup.sh -p edge -f configfile` with correct parameters.",
+            "Check `\/opt\/apigee\/var\/log` for installation errors.",
+            "Verify network connectivity between cluster nodes."
+        ]
+    }
+]
