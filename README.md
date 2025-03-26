@@ -32,7 +32,20 @@ What inspired you to create this project? Describe the problem you're solving.
 3. User can chat with chatbot about the issue he/she is facing and get the AI assistant in troubleshooting the issue.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+1. Setup FastAPI Foundation
+2. Built Core API Structure
+3. Implemented RAG Pipeline
+   - Document loader for JSON knowledge base
+   - Embedding generation with all-MiniLM-L6-v2
+   - FAISS index creation and persistence
+4. Integrated OpenAI
+5. Added SQLite Storage
+6. React UI Implementation
+7. Initialized Project
+8. Built Core Components
+9. Implemented State Management
+10. Added API Services
+11. Styled Components
 
 ## 🚧 Challenges We Faced
 1. Choosing the UI
