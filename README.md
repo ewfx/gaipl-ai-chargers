@@ -16,18 +16,22 @@
 - An application with UI interface that intakes client requests, to search and provide optimum resolutions and at times also performs some job/implementations upon request.
 - 
 - [How We Built It](#how-we-built-it)
-- 
+- pavan to add
 - 
 - [Challenges We Faced](#challenges-we-faced)
 - 
 - [How to Run](#how-to-run)
-- 
+
+- open the web applicayion
+- search your query
+- the search optimization tool will integrate with gen ai to provide the most optimal results and if required upon furthur direction also excute small scriptsEg: generate dumpand festart server when there is high cpu
 - [Tech Stack](#tech-stack)
 -  open ai model
--  
+
+-  pavan
 - [Team](#team)
 - 
-
+all names
 ---
 
 ## 🎯 Introduction
